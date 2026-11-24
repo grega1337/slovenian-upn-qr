@@ -1,0 +1,43 @@
+{
+  "name": "grsoftware/slovenian-upn-qr",
+  "description": "Standalone Slovenian UPN QR payment generator following the official ZBS standard. Generates valid UPNQR payloads, QR codes, and visual payment slips.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "upn",
+    "upnqr",
+    "qr-code",
+    "slovenia",
+    "zbs",
+    "payment",
+    "bacs",
+    "banking"
+  ],
+  "homepage": "https://grsoftware.si/upn-vticnik-woocommerce",
+  "support": {
+    "issues": "https://github.com/grsoftware/slovenian-upn-qr/issues",
+    "source": "https://github.com/grsoftware/slovenian-upn-qr",
+    "docs": "https://grsoftware.si/upn-vticnik-woocommerce"
+  },
+  "authors": [
+    {
+      "name": "Grega Rednak",
+      "email": "grega.rednak@grsoftware.si",
+      "homepage": "https://grsoftware.si",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "endroid/qr-code": "^5.0 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GrSoftware\\UpnQr\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
